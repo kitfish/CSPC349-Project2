@@ -1,0 +1,13 @@
+body{
+  background:rgb(88, 87, 87);
+}
+
+.banner{
+  z-index: 999;
+  padding: 15px;
+  text-align: center;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+.positionrelative {position:sticky;}

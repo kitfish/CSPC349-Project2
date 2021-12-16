@@ -33,11 +33,11 @@
   height: 20%;
   font-size:12px;
   position: absolute;
-  z-index: 999;
+  z-index: 1;
   box-shadow: 0 0 5px 0 rgba(184, 140, 140, 0.3);
 }
 .census-info-hover{
-  z-index: 999;
+  z-index: 1;
   top: 55px;
   right: 150px;
   height: 20%;
@@ -45,7 +45,7 @@
   padding: 10px 10px;
   border-radius: 5px;
   color: white;
-  position: absolute;
+  position: fixed;
   letter-spacing:2px;
   margin-top:150px;
   font-size: 14px;
@@ -64,7 +64,7 @@
  
 }
 .census-info-hover{
-  z-index: 999;
+  z-index: 1;
   top: 120px;
   right: 38px;
   height: 15%;
